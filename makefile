@@ -21,5 +21,5 @@ clean:
 
 
 mrproper: clean
-	rm *.gcda *.gcno results.*
+	rm -f *.gcda *.gcno results.*
 	rm result.xml
