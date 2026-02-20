@@ -92,6 +92,6 @@ int main(void)
         cmocka_unit_test(null_test_pas_touriste_enfant_equal),
         cmocka_unit_test(null_test_fail_avec_msg),
     };
-    // cmocka_set_message_output(CM_OUTPUT_XML);
+    cmocka_set_message_output(CM_OUTPUT_XML);
     return cmocka_run_group_tests_name("Tests TP2", tests, setup, teardown);
 }
