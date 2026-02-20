@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/maximesavy/Desktop/ETUDES/ENSTA/COURS/P2/IN10/TP/ratp-20260212",
+      "program": "/Users/maximesavy/Desktop/ETUDES/ENSTA/COURS/P2/IN10/TP/ratp-20260212/build/Debug/outDebug"
+    }
+  ]
+}
