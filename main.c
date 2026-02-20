@@ -13,21 +13,21 @@
 static int setup(void **state)
 {
     (void)state;
-    printf("setUp");
+    //   printf("setUp");
     return 0;
 }
 
 static int setup2(void **state)
 {
     (void)state;
-    printf("setUp2");
+    //   printf("setUp2");
     return 0;
 }
 
 static int teardown(void **state)
 {
     (void)state;
-    printf("tearDown");
+    //   printf("tearDown");
     return 0;
 }
 
