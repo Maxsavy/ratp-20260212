@@ -76,12 +76,6 @@ static void null_test_success(void **state)
     (void)state;
 }
 
-static void null_test_fail_avec_msg(void **state)
-{
-    (void)state;
-    fail_msg("failed");
-}
-
 int main(void)
 {
     const struct CMUnitTest tests[] = {
@@ -90,7 +84,6 @@ int main(void)
         cmocka_unit_test(null_test_touriste_pas_enfant),
         cmocka_unit_test(null_test_touriste_enfant_equal),
         cmocka_unit_test(null_test_pas_touriste_enfant_equal),
-        cmocka_unit_test(null_test_fail_avec_msg),
     };
     cmocka_set_message_output(CM_OUTPUT_XML);
     return cmocka_run_group_tests_name("Tests TP2", tests, setup, teardown);
